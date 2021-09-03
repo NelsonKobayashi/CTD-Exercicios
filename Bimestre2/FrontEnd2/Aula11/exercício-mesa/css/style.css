@@ -1,0 +1,61 @@
+/* zerando o browser */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    text-align: center;/* alinhando os itens do body ao centro */   
+    background-color: rgb(37, 41, 41); /* alternado a cor de fundo do body */
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.formulario{
+    display: inline-block;
+    background-color: rgb(20, 64, 94);
+    color: white;
+    padding: 3rem;
+    margin: 10px;
+    border-radius: 5px 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.form{
+    padding: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.cx-formulario{
+    padding: 0.5rem;
+}
+
+input{
+    padding: 0.5rem;
+    border-radius: 5px 10px;
+    
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px 10px;
+}
+
+div #cards {
+    columns: 3 200px;
+}
+
+img {
+    max-height: 350px;
+}
+
+p{
+    color: white;
+    font-size: 1.2rem;
+}
